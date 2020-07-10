@@ -60,6 +60,10 @@ TensorFlow 2.0 eliminates all of these mechanisms
 of the default mechanism: Keep track of your variables! If you lose track of a
 `tf.Variable`, it gets garbage collected.
 
+Why no more globals? 
+
+## Because no more globals!
+
 The requirement to track variables creates some extra work for the user, but
 with Keras objects (see below), the burden is minimized.
 
