@@ -146,6 +146,9 @@ application is considered **input bound** when it spends a significant portion
 of time in input pipeline. Use the insights obtained from the input pipeline
 analyzer to understand where the input pipeline is inefficient.
 
+HELLO THERE
+HOW ARE YOU DOING? 
+
 The input pipeline analyzer tells you immediately whether your program is input
 bound and walks you through device- and host-side analysis to debug performance
 bottlenecks at any stage in the input pipeline.
