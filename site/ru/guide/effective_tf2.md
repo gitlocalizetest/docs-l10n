@@ -121,11 +121,6 @@ TensorFlow 2.0, пользователям необходимо отрефакт
 ### Используйте слои и модели Keras для управления переменными
 
 
-Keras models and layers offer the convenient `variables` and
-`trainable_variables` properties, which recursively gather up all dependent
-variables. This makes it easy to manage variables locally to where they are
-being used.
-
 Модели и слои Keras предлагают удобные свойства `variables` и
 `trainable_variables`, которые рекурсивно собирают все зависимые переменные. Это
 облегчает локальное управление переменными в том месте, где они использовались.
